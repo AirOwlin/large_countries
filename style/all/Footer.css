@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #e4b888;
+}
+
+.container_footer {
+    padding: 0px 15px;
+    width: 100%;
+    display: flex;
+}
+
+.btm{
+    display: flex;
+    width: 100%;
+}
+
+.lst_links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.lst_links li {
+    margin: 0px 10px;
+}
+
+.lst_links li a {
+    text-decoration: none;
+    color: black;
+}

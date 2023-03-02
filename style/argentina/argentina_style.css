@@ -1,0 +1,140 @@
+/* Область всей контентной части */
+.content{
+    margin-top: 80px;
+    width: 83%;
+    float: right;
+}
+
+/* Блок контента */
+.container{
+    width: 100%;
+    padding: 25px;
+    background: white/*linear-gradient(to bottom, #fefcea, #f1da36)*/;
+}
+
+/* Название страны */
+.name_country > p {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0px 30px 0px;
+}
+
+/* Список: Название - Флаг*/
+.list_ {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+/* Название, флаг */
+.list_ li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Флаг страны */
+.list_ li img{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+/* Блок краткой информации */
+.short_info {
+    margin-top: 50px;
+    width: 50%;
+    padding: 15px;
+    background-color: rgb(255, 244, 213);
+}
+
+/* Заголовок краткой информации */
+.short_info > p {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+/* Список данных страны в краткой информации */
+.list_info {
+    width: 100%;
+    list-style: none;
+}
+
+/* Информация */
+.list_info li {
+    margin-top: 10px;
+}
+
+/* Блок подробной информации о стране */
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.title_div {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.title2{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.info_title {
+    line-height: 23px;
+    padding: 5px 0px 7px 0px;
+}
+
+.list_in_text{
+    margin-left: 25px;
+}
+
+.list_img_text {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+
+.list_img_text li {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_img_text li p {
+    padding-top: 10px;
+    color: rgb(175, 175, 175);
+}
+
+.dop_info {
+    background-color: rgb(255, 244, 213);
+    width: 100%;
+    padding: 25px;
+    border-radius:10px;
+}
+ 
+.dop_info li a {
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+}

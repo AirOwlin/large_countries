@@ -1,0 +1,94 @@
+/* Область всей контентной части */
+.content{
+    padding: 0px 0px 0px 0px;
+}
+
+/* Блок контента */
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 25px;
+    background-color: rgb(245, 219, 184);
+}
+
+/* Блок списка стран */
+.main_sb {
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+/* Заголовок списка */
+.title_sb {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+/* Карточка каждой страны (ссылка-карточка)*/
+.country {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    height: fit-content;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s linear; /* Время изменения */
+}
+
+/* Изменение при наведении */
+.country:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+/* Название стран */
+.country h2 {
+    color: black;
+    padding-bottom: 10px;
+}
+
+/* Блок флага страны */
+.flag {
+    display: flex;
+    align-items: center;
+    padding: 10px
+}
+
+/* Текст флага */
+.flag p {
+    padding-right: 10px;
+    color: black;
+}
+
+/* Небольшое описание каждой страны */ 
+.describe_country {
+    color: black;
+    padding: 10px;
+}
+
+.list_countries {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.list_countries > li {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 10px 0px;
+}
+
+.list_info {
+    list-style: none;
+}
+
+.img_border{
+    border: 1px solid black;
+    border-radius: 3px;
+}
